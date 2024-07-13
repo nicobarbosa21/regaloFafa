@@ -10,7 +10,7 @@ function App() {
       <div>
       <h1>FELIZ CUMPLEAÑOS</h1>
       <h3>Bienvenidos a Fafá clicker</h3>
-        <img src='../../imagenes/fafa_boton2.png' alt="Fafá" onClick={() => setCount((count) => count + 1)} style={{cursor: 'pointer'}} className="pressable" />
+        <img src='../imagenes/fafa_boton2.png' alt="Fafá" onClick={() => setCount((count) => count + 1)} style={{cursor: 'pointer'}} className="pressable" />
       </div>
       <div className="card">
         <h2>La cantidad de fafás apretados es {count}</h2>
